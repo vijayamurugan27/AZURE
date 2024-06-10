@@ -1,0 +1,8 @@
+13f5e00a266546a683431fbd9677dd64
+
+50993b56fadf411cbd9468afb1973817
+
+eastus
+
+https://gomathinila.cognitiveservices.azure.com/
+
