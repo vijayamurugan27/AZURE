@@ -1,0 +1,7 @@
+db25a79ef2de450398619d5f69a14acd
+
+12925d2fae7741deb6665dc366efae09
+
+eastus
+
+https://guhapriya.cognitiveservices.azure.com/

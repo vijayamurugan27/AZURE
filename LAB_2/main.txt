@@ -1,0 +1,7 @@
+1dbe11abdde64a82a79dd9e61bdf87bb
+b56b6f8e26224609875c7dce23b6350e
+
+eastus
+
+https://nila1432.cognitiveservices.azure.com/
+

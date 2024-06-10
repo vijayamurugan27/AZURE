@@ -1,0 +1,39 @@
+Analyzing image...
+
+Caption:
+ Caption: 'a large white building with a dome and a large lawn with United States Capitol in the background' (confidence: 64.59%)
+
+Dense Captions:
+ Caption: 'a large white building with a dome and a large lawn' (confidence: 64.52%)
+
+Tags:
+ Tag: 'outdoor' (confidence: 99.93%)
+ Tag: 'cloud' (confidence: 99.79%)
+ Tag: 'grass' (confidence: 99.76%)
+ Tag: 'tree' (confidence: 99.09%)
+ Tag: 'sky' (confidence: 98.95%)
+ Tag: 'building' (confidence: 96.15%)
+ Tag: 'dome' (confidence: 91.38%)
+ Tag: 'presidential palace' (confidence: 91.03%)
+ Tag: 'landmark' (confidence: 89.98%)
+ Tag: 'palace' (confidence: 89.63%)
+ Tag: 'plant' (confidence: 88.77%)
+ Tag: 'courthouse' (confidence: 84.78%)
+ Tag: 'field' (confidence: 82.64%)
+ Tag: 'city' (confidence: 76.11%)
+ Tag: 'large' (confidence: 68.73%)
+ Tag: 'park' (confidence: 54.24%)
+
+Objects in image:
+ building (confidence: 62.30%)
+  Results saved in objects.jpg
+
+People in image:
+  Results saved in people.jpg
+
+Removing background from image...
+  Results saved in backgroundForeground.png
+
+
+Removing foreground from image...
+  Results saved in Foreground.png

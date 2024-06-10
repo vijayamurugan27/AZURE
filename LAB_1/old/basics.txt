@@ -1,0 +1,112 @@
+Get started with Azure AI Services.
+
+in this lab we are going to indentify the language of any origin.
+
+02-ai-services-security
+
+
+
+
+https://github.com/MicrosoftLearning/mslearn-ai-services
+
+Azure AI Services
+
+Labfiles/01-use-azure-ai-services
+
+https://portal.azure.com
+
+pip install python-dotenv
+python rest-client.py
+
+pip install azure-ai-textanalytics==5.3.0
+
+
+
+python sdk-client.py
+
+
+User1-41049741@LODSPRODMCA.onmicrosoft.com
+
+Sr0Je2!!Da
+
+https://portal.azure.com
+
+
+
+azure ai services
+
+
+da2c629e3d514ed3a468de4414ed8867
+
+
+12a77a60f8024f169ab78808ece6a8c2
+
+eastus
+
+
+https://jamesvasanth102.cognitiveservices.azure.com/
+
+
+change the .env in both the SDK-client and the rest-client  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/MicrosoftLearning/mslearn-ai-services
+
+Azure AI Services
+
+Labfiles/01-use-azure-ai-services
+
+https://portal.azure.com
+
+pip install python-dotenv
+python rest-client.py
+
+pip install azure-ai-textanalytics==5.3.0
+
+
+python sdk-client.py
+
+https://portal.azure.com
