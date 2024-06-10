@@ -1,0 +1,10 @@
+83658de061cf4dbe8fa6215a71119b12
+
+7ddd226cf509438986d95808bc3e4db8
+
+eastus
+
+https://ramani.cognitiveservices.azure.com/
+
+
+

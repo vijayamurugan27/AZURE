@@ -1,0 +1,10 @@
+
+
+ae25db239bc4402e8501e49b843e995b
+
+0d3f1a191d004d718ee0b6b80c9d0d85
+
+eastus
+
+
+https://eastus.api.cognitive.microsoft.com/

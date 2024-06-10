@@ -1,0 +1,226 @@
+Pausing the app to allow you to change the system prompt.
+Press enter to continue...
+
+Enter user message, or 'quit' to exit: You are an AI assistant
+
+Sending request to Azure OpenAI model...
+
+Response:
+Yes, I am an AI assistant. How can I assist you today?
+
+------------------
+Pausing the app to allow you to change the system prompt.
+Press enter to continue...
+
+Enter user message, or 'quit' to exit: Write an intro for a new wildlife Rescue
+
+Sending request to Azure OpenAI model...
+
+Response:
+Welcome to the world of wildlife rescue, where compassion meets conservation! In this exciting new venture, we are dedicated to the protection, rehabilitation, and release of our precious animal friends. Our team of passionate experts, armed with knowledge and a deep love for wildlife, has embarked on a mission to save and restore the lives of animals in need.
+
+At our wildlife rescue, every creature, big or small, finds a safe haven where they are nurtured back to health and given a second chance at life. Whether they have fallen victim to habitat destruction, illegal wildlife trade, or human interference, we are here to provide the care and support they desperately need.
+
+Our rescue center is a sanctuary for the injured, orphaned, and displaced animals. With state-of-the-art facilities, including specialized medical care, spacious enclosures, and nutritious diets, we ensure that each animal receives the best care possible. Our dedicated team works tirelessly around the clock, providing round-the-clock attention, rehabilitation, and veterinary care to ensure a successful recovery.
+
+But our work doesn't stop there. Education and outreach play a crucial role in protecting our wildlife for generations to come. Through community programs, school visits, and public awareness campaigns, we aim to inspire a deep appreciation for the natural world and foster a sense of responsibility towards its preservation.
+
+Join us on this incredible journey as we witness remarkable stories of resilience, compassion, and the unwavering spirit of nature. Together, we can make a difference and ensure a brighter future for our wildlife. Welcome to our wildlife rescue, where hope takes flight and every life matters.
+
+
+
+
+
+System message:You are an AI assistant helping to write emails.
+
+
+
+
+Pausing the app to allow you to change the system prompt.
+Press enter to continue...
+
+Enter user message, or 'quit' to exit: Write a promotional email for a new wildlife rescue, including the following: - Rescue name is Contoso - It specializes in elephants - Call for donations to be given at our website
+
+Sending request to Azure OpenAI model...
+
+Response:
+Subject: Introducing Contoso: Saving Elephants from the Brink of Extinction
+
+Dear [Recipient's Name],
+
+rking towards their long-term conservation.
+
+Specializing in the rescue and rehabilitation of elephants, Contoso has assembled a team of highly skilled professionals who are passionate about making a difference. Our dedicated staff members work tirelessly to rescue elephants from dire situations, such as illegal captivity, poaching, and habitat destruction. Once rescued, we provide them with the necessary care, medical attention, and a nurturing environment where they can recover from their traumas and flourish.
+
+However, we cannot achieve this mission alone. We rely on the support and generosity of compassionate individuals like you to continue our life-saving work. Your contribution, no matter the size, can make a tangible impact on the lives of these incredible animals.
+
+Today, we humbly request your support through a donation to our cause. By visiting our website, [Website URL], you can securely make a donation that will directly fund our rescue efforts, as well as support ongoing veterinary care, habitat restoration, and educational initiatives aimed at raising awareness about the plight of elephants.
+
+Your donation will help us provide vital resources, such as food, shelter, and medical supplies, ensuring that each elephant under our care receives the attention they deserve. Together, we can safeguard the future of these remarkable creatures and preserve their rightful place in our world.
+
+Join us on this incredible journey towards a brighter future for elephants. Your support can make a world of difference. Visit [Website URL] today to make a donation and learn more about our work.
+
+Thank you for your compassion and commitment to wildlife conservation. Together, we can rewrite the story of these gentle giants and secure a better future for our planet.      
+
+Warm regards,
+
+[Your Name]
+[Your Position]
+Contoso Wildlife Rescue
+[Contact Information]
+
+------------------
+Pausing the app to allow you to change the system prompt.
+
+
+
+------------------------------------------
+
+System Message: You are an AI assistant helping to write emails
+
+
+Pausing the app to allow you to change the system prompt.
+Press enter to continue...
+
+Enter user message, or 'quit' to exit: Write a promotional email for a new wildlife rescue, including the following: - Rescue name is Contoso - It specializes in elephants, as well as zebras and giraffes - Call for donations to be given at our website \n Include a list of the current animals we have at our rescue after the signature, in the form of a table. These animals include elephants, zebras, gorillas, lizards, and jackrabbits.
+
+Sending request to Azure OpenAI model...
+
+Response:
+Subject: Join Contoso Wildlife Rescue in Saving Precious Lives!
+
+Dear [Recipient's Name],
+
+I hope this email finds you well. I am excited to introduce you to Contoso Wildlife Rescue, a newly established organization dedicated to the rescue and rehabilitation of elephants, zebras, and giraffes in need.
+
+At Contoso, our passionate team of experts work tirelessly to provide a safe haven for these magnificent creatures, nursing them back to health and preparing them for a brighter future. Our mission is to ensure the well-being and conservation of these animals, protecting them from the threats they face in the wild.
+
+However, we cannot do this alone. We rely on the generosity and support of individuals like you who share our commitment to wildlife conservation. Your contribution will directly impact the lives of these incredible animals and enable us to continue our vital work.
+
+We kindly request your support through a donation to Contoso Wildlife Rescue. You can easily make a contribution by visiting our website at [insert website URL]. Every dollar counts and will be used to provide the necessary care, nutrition, and medical attention required for the well-being of our animals.
+
+To further inspire your support, I would like to share with you a glimpse of the incredible creatures we currently have at Contoso Wildlife Rescue:
+
+| Animal       | Quantity |
+|--------------|----------|
+| Elephants    | 4        |
+| Zebras       | 6        |
+| Gorillas     | 2        |
+| Lizards      | 10       |
+| Jackrabbits  | 8        |
+
+Your donation will directly impact the lives of these animals, ensuring they receive the best care and attention they deserve. Together, we can make a significant difference in protecting and preserving these majestic creatures for generations to come.
+
+Thank you for your consideration and support. By joining our cause, you are playing a vital role in safeguarding and rehabilitating wildlife in need. Feel free to reach out to us if you have any questions or require further information.
+
+Warm regards,
+
+[Your Name]
+[Your Title]
+Contoso Wildlife Rescue
+[Contact Information]
+
+
+
+
+------------------------------------------------------------------
+
+
+
+Pausing the app to allow you to change the system prompt.
+Press enter to continue...
+
+Enter user message, or 'quit' to exit: for a new wildlife rescue, including the following: - Rescue name is Contoso - It specializes in elephants, as well as zebras and giraffes - Call for donations to be given at our website \n Include a list of the current animals we have at our rescue after the signature, in the form of a table. These animals include elephants, zebras, gorillas, lizards, and jackrabbits
+
+Sending request to Azure OpenAI model...
+
+Response:
+Subject: 🐘🦓🦒 Help Us Save the Wild! 🌍
+
+Hey there, wildlife enthusiasts!
+
+Hope this email finds you in the wild spirit of adventure! 🏞️ We're thrilled to introduce you to 
+ Contoso, the newest wildlife rescue in town! 🎉 Our mission is simple: to protect and preserve the incredible wildlife that roams our beautiful planet.
+
+But hey, before we get into the details, let me tell you a joke to lighten the mood:
+
+What do you call a zebra with no stripes?
+A horse that's in denial! 🦓😜
+
+Now that we've got the giggles out of the way, let me tell you what sets Contoso apart. We specialize in caring for elephants, zebras, and giraffes. Just imagine the majestic creatures we get to hang out with every day! 🐘🦒
+
+But here's the deal, my friend. To continue providing top-notch care for these incredible animals, we need your support. Donations, big or small, go a long way in ensuring their safety, happiness, and well-being. 🙏 You can contribute securely on our website, [Insert Website Link], where every dollar counts!
+
+Oh, and since we're on the topic of animals, here's another joke for you:
+
+What do you call a giraffe that's caught in the rain?
+A drizzledilla! 🌧️🦒😂
+
+Now, let's have some fun! Here's a sneak peek at the incredible animals we currently have at Contoso Wildlife Rescue:
+
+| Animal     | Quantity |
+|------------|----------|
+| Elephants  |    3     |
+| Zebras     |    5     |
+| Gorillas   |    2     |
+| Lizards    |    8     |
+| Jackrabbits|    4     |
+
+These wonderful creatures are counting on your support, so why not make a difference today? Remember, every donation brings us one step closer to a brighter future for wildlife everywhere! 🌍🌿 
+
+Thank you for taking the time to read about Contoso Wildlife Rescue. We truly appreciate your interest and support. Together, we can make a wild difference!
+
+Wishing you a day filled with laughter and wild adventures!
+
+Warmest regards,
+
+Your friends at Contoso Wildlife Rescue
+
+P.S. Did you hear about the elephant that didn't want to go in the water? He was afraid of getting his trunk wet! 🐘💦😄
+
+P.P.S. If you have any questions or would like to get involved, don't hesitate to reach out. We'd love to chat with you!
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+for grounding.txt
+
+Pausing the app to allow you to change the system prompt.
+Press enter to continue...
+
+Enter user message, or 'quit' to exit: What animal is the favorite of children at Contoso?                                                                                          
+Sending request to Azure OpenAI model...
+
+
+Adding grounding context from grounding.txt
+Response:
+The text does not provide information about the favorite animal of children at Contoso.
+
+------------------
+Pausing the app to allow you to change the system prompt.
+Press enter to continue...
+
+
+-------------------------------------------------------------------------------------------
+
+printFullResponse  = True
+
+
+Pausing the app to allow you to change the system prompt.
+Press enter to continue...
+
+Enter user message, or 'quit' to exit: What animal is the favorite of children at Contoso?
+
+Sending request to Azure OpenAI model...
+
+
+Adding grounding context from grounding.txt
+ChatCompletion(id='chatcmpl-9Tr9MX6YRncac2OjXiwE3W7RHyQ5M', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='The favorite animal of children at Contoso is the monkey.', role='assistant', function_call=None, tool_calls=None), content_filter_results={'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}})], created=1716902848, model='gpt-35-turbo-16k', object='chat.completion', system_fingerprint=None, usage=CompletionUsage(completion_tokens=12, prompt_tokens=51, total_tokens=63), prompt_filter_results=[{'prompt_index': 0, 'content_filter_results': {'hate': {'filtered': False, 'severity': 'safe'}, 'self_harm': {'filtered': False, 'severity': 'safe'}, 'sexual': {'filtered': False, 'severity': 'safe'}, 'violence': {'filtered': False, 'severity': 'safe'}}}])
+Response:
+The favorite animal of children at Contoso is the monkey.
+
+------------------
+Pausing the app to allow you to change the system prompt.
+Press enter to continue...

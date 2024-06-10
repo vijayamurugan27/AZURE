@@ -1,0 +1,12 @@
+d78eaafe09f74601adcbddb9c853ad07
+
+d76b221de99c4b54901cd5fbfda57d56
+
+eastus
+
+
+https://gemsgum.openai.azure.com/
+
+
+
+demsgumdeployment

@@ -1,0 +1,286 @@
+ Create a language understanding model with the Language service (Expected Duration 3 hours)
+AI-102T00-A Designing and Implementing a Microsoft Azure AI Solution [Cloud Slice Provided], AI-102-07 (CSS)
+
+
+Pa55w.rd
+
+User1-41061674@LODSPRODMCA.onmicrosoft.com
+
+k!DgeHA70$
+
+
+https://portal.azure.com
+
+
+Azure AI Language service
+
+In the search field at the top, search for Azure AI services. Then, in the results, select Create under Language Service.
+
+
+Keys and Endpoint
+
+
+https://language.cognitive.azure.com/
+
+
+settings -> resources
+
+create new --> convwesational language understanding.
+
+In the Create a project dialog box, on the Enter basic information page, enter the following details and then select Next:
+
+    Name: Clock
+    Utterances primary language: English
+    Enable multiple languages in project?: Unselected
+    Description: Natural language clock
+
+On the Review and finish page, select Create.
+
+
+
+
+GetTime 
+
+what is the time?
+
+what's the time?
+what time is it?
+tell me the time
+
+GetDay 
+
+what day is it?
+what's the day?
+what is the day today?
+what day of the week is it?
+
+GetDate 
+
+what date is it?
+what's the date?
+what is the date today?
+what's today's date?
+
+
+
+
+Train and test the model
+
+Model performance
+
+Deployment (Production)
+
+Testing deployments
+
+    ‌‌what's the time now?
+    tell me the time.
+    what's the day today?
+
+
+
+Add entities
+
+    Schema definition
+        Add an entity 
+            Location -> learned
+                Location 
+            Data labeling
+
+            
+Data labeling
+
+GetTime
+
+what time is it in London?
+
+Tell me the time in Paris?
+
+what's the time in New York?
+
+
+
+what date was it on Saturday?
+
+what date will it be on Friday?
+
+what will the date be on Thurs?
+
+Data labeling
+
+    GetDate
+
+        what date was it on Saturday?
+
+        what date will it be on Friday?
+
+        what will the date be on Thurs?
+
+
+
+schema definition -> Entities -> Add
+
+Add entity -> Date -> Prebuilt-> add entity
+Date -> learned -> not required -> prebuilt -> Add new prebuilt
+
+select prebuilt -> DateTime -> save.
+
+Data labeling
+
+	GetDay
+
+		what day was 01/01/1901?
+		what day will it be on Dec 31st 2099?
+
+
+Retrain the model:
+
+
+
+after override deployment
+
+    what's the time in Edinburgh?
+    what time is it in Tokyo?
+    what date is it on Friday?
+    what's the date on Weds?
+    what day was 01/01/2020?
+    what day will Mar 7th 2030 be?
+
+
+
+
+		
+https://github.com/MicrosoftLearning/mslearn-ai-language
+
+
+
+Labfiles/03-language 
+
+pip install azure-ai-language-conversations
+
+Python: .env
+
+Keys and Endpoint
+
+# Import namespaces
+from azure.core.credentials import AzureKeyCredential
+from azure.ai.language.conversations import ConversationAnalysisClient
+
+
+# Create a client for the Language service model
+client = ConversationAnalysisClient(
+    ls_prediction_endpoint, AzureKeyCredential(ls_prediction_key))
+
+# Call the Language service model to get intent and entities
+cls_project = 'Clock'
+deployment_slot = 'production'
+
+with client:
+    query = userText
+    result = client.analyze_conversation(
+        task={
+            "kind": "Conversation",
+            "analysisInput": {
+                "conversationItem": {
+                    "participantId": "1",
+                    "id": "1",
+                    "modality": "text",
+                    "language": "en",
+                    "text": query
+                },
+                "isLoggingEnabled": False
+            },
+            "parameters": {
+                "projectName": cls_project,
+                "deploymentName": deployment_slot,
+                "verbose": True
+            }
+        }
+    )
+
+top_intent = result["result"]["prediction"]["topIntent"]
+entities = result["result"]["prediction"]["entities"]
+
+print("view top intent:")
+print("\ttop intent: {}".format(result["result"]["prediction"]["topIntent"]))
+print("\tcategory: {}".format(result["result"]["prediction"]["intents"][0]["category"]))
+print("\tconfidence score: {}\n".format(result["result"]["prediction"]["intents"][0]["confidenceScore"]))
+
+print("view entities:")
+for entity in entities:
+    print("\tcategory: {}".format(entity["category"]))
+    print("\ttext: {}".format(entity["text"]))
+    print("\tconfidence score: {}".format(entity["confidenceScore"]))
+
+print("query: {}".format(result["result"]["query"]))
+
+
+
+
+# Apply the appropriate action
+if top_intent == 'GetTime':
+    location = 'local'
+    # Check for entities
+    if len(entities) > 0:
+        # Check for a location entity
+        for entity in entities:
+            if 'Location' == entity["category"]:
+                # ML entities are strings, get the first one
+                location = entity["text"]
+    # Get the time for the specified location
+    print(GetTime(location))
+
+elif top_intent == 'GetDay':
+    date_string = date.today().strftime("%m/%d/%Y")
+    # Check for entities
+    if len(entities) > 0:
+        # Check for a Date entity
+        for entity in entities:
+            if 'Date' == entity["category"]:
+                # Regex entities are strings, get the first one
+                date_string = entity["text"]
+    # Get the day for the specified date
+    print(GetDay(date_string))
+
+elif top_intent == 'GetDate':
+    day = 'today'
+    # Check for entities
+    if len(entities) > 0:
+        # Check for a Weekday entity
+        for entity in entities:
+            if 'Weekday' == entity["category"]:
+            # List entities are lists
+                day = entity["text"]
+    # Get the date for the specified day
+    print(GetDate(day))
+
+else:
+    # Some other intent (for example, "None") was predicted
+    print('Try asking me for the time, the day, or the date.')
+
+
+
+python clock-client.py
+
+
+
+Hello
+
+What time is it?
+
+What's the time in London?
+
+What's the date?
+
+What date is Sunday?
+
+What day is it?
+
+What day is 01/01/2025?
+
+		
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+a65a7ccac44941b1a9373de9999ca226
+
+
+2912dc782f894418b646b719dbbf0113
+
+
+
+
+eastus
+
+https://galvin.openai.azure.com/
+
+https://oai.azure.com
+
+https://portal.azure.com

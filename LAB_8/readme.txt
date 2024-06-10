@@ -1,0 +1,5 @@
+Recognize and synthesize speech (Expected Duration 1 hours)
+AI-102T00-A Designing and Implementing a Microsoft Azure AI Solution [Cloud Slice Provided], AI-102-08 (CSS)
+
+
+07-speech

@@ -1,0 +1,142 @@
+Recognize and synthesize speech (Expected Duration 1 hours)
+AI-102T00-A Designing and Implementing a Microsoft Azure AI Solution [Cloud Slice Provided], AI-102-08 (CSS)
+
+
+
+
+User1-41089304@LODSPRODMCA.onmicrosoft.com
+
+eBdD0h#1B!
+
+https://portal.azure.com
+
+Azure AI services and press Enter, then select Create under Speech service in the results.
+
+Azure Ai Services -> Speech Service
+
+Keys and Endpoint 
+
+Prepare to develop an app in Visual Studio Code
+
+https://github.com/MicrosoftLearning/mslearn-ai-language
+
+Configure your application
+
+Labfiles/07-speech
+
+pip install azure-cognitiveservices-speech==1.30.0
+
+
+# Import namespaces
+import azure.cognitiveservices.speech as speech_sdk
+
+
+# Configure speech service
+speech_config = speech_sdk.SpeechConfig(ai_key, ai_region)
+print('Ready to use speech service in:', speech_config.region)
+
+python speaking-clock.py
+
+Add code to recognize speech
+
+
+SpeechConfig ->Speech-to-text
+
+# Configure speech recognition
+audio_config = speech_sdk.AudioConfig(use_default_microphone=True)
+speech_recognizer = speech_sdk.SpeechRecognizer(speech_config, audio_config)
+print('Speak now...')
+
+--------------------------------------------------------------------
+
+Alternative method..
+
+pip install playsound==1.2.2
+
+speaking-clock.py
+
+from playsound import playsound
+
+# Configure speech recognition
+current_dir = os.getcwd()
+audioFile = current_dir + '\\time.wav'
+playsound(audioFile)
+audio_config = speech_sdk.AudioConfig(filename=audioFile)
+speech_recognizer = speech_sdk.SpeechRecognizer(speech_config, audio_config)
+
+---------------------------------------------------------------------------------
+
+
+Add code to process the transcribed command
+
+
+
+
+
+# Process speech input
+speech = speech_recognizer.recognize_once_async().get()
+if speech.reason == speech_sdk.ResultReason.RecognizedSpeech:
+    command = speech.text
+    print(command)
+else:
+    print(speech.reason)
+    if speech.reason == speech_sdk.ResultReason.Canceled:
+        cancellation = speech.cancellation_details
+        print(cancellation.reason)
+        print(cancellation.error_details)
+
+
+python speaking-clock.py
+
+
+
+Synthesize speech
+
+
+# Configure speech synthesis
+speech_config.speech_synthesis_voice_name = "en-GB-RyanNeural"
+speech_synthesizer = speech_sdk.SpeechSynthesizer(speech_config)
+
+
+# Synthesize spoken output
+speak = speech_synthesizer.speak_text_async(response_text).get()
+if speak.reason != speech_sdk.ResultReason.SynthesizingAudioCompleted:
+    print(speak.reason)
+
+python speaking-clock.py
+
+
+
+Use a different voice
+
+# Configure speech synthesis
+speech_config.speech_synthesis_voice_name = 'en-GB-LibbyNeural' # change this
+speech_synthesizer = speech_sdk.SpeechSynthesizer(speech_config)
+
+python speaking-clock.py
+
+
+
+Use Speech Synthesis Markup Language
+
+In the TellTime function, replace all of the current code under the comment Synthesize 
+spoken output with the following code (leave the code under the comment Print the response):
+
+
+# Synthesize spoken output
+responseSsml = " \
+    <speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-US'> \
+        <voice name='en-GB-LibbyNeural'> \
+            {} \
+            <break strength='weak'/> \
+            Time to end this lab! \
+        </voice> \
+    </speak>".format(response_text)
+speak = speech_synthesizer.speak_ssml_async(responseSsml).get()
+if speak.reason != speech_sdk.ResultReason.SynthesizingAudioCompleted:
+    print(speak.reason)
+
+python speaking-clock.py
+
+
+

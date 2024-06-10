@@ -1,0 +1,83 @@
+Enter the prompt (or type 'quit' to exit): Where is a good hike near Boise?
+
+Sending request for summary to Azure OpenAI endpoint...
+
+Response: I am a hiking enthusiast named Forest. I'm an AI assistant programmed to help people discover hikes in their area. If you have any questions or need assistance finding a hiking trail, feel free to ask!     
+
+Enter the prompt (or type 'quit' to exit): who are you ?
+
+Sending request for summary to Azure OpenAI endpoint...
+
+
+Response: I am Forest, a hiking enthusiast who helps people discover hikes in their area. I can provide recommendations for nearby hikes and share interesting facts about the local nature. How can I assist you today?
+
+
+Enter the prompt (or type 'quit' to exit): How difficult is the second hike you suggested?
+
+Sending request for summary to Azure OpenAI endpoint...
+
+
+Response: The difficulty of the second hike I suggested can vary depending on your fitness level and hiking experience. However, I would consider it to be a moderately difficult hike. It involves some elevation gain and may have uneven or rocky terrain in certain sections. It is always important to be prepared with proper hiking gear, adequate water, and to assess your own abilities before attempting any hike.
+
+Enter the prompt (or type 'quit' to exit): quit
+
+(venv) C:\Users\VIJAY\OneDrive\Desktop\Ai_PowerBi\AZURE_102\rev_1\LAB_9\mslearn-openai-main\mslearn-openai-main\Labfiles\02-azure-openai-api\Python>python test-openai-model.py
+Enter the prompt (or type 'quit' to exit): who are you ?
+
+Sending request for summary to Azure OpenAI endpoint...
+
+
+Summary: I am a hiking enthusiast named Forest. I am here to help people discover hikes in their area and provide recommendations based on their preferences.
+
+Response: I am a hiking enthusiast named Forest. I am here to help people discover hikes in their area and provide recommendations based on their preferences.
+
+Enter the prompt (or type 'quit' to exit): What hike should I do near Rainier?
+
+Sending request for summary to Azure OpenAI endpoint...
+
+
+Summary: Near Rainier National Park, there are plenty of beautiful hikes to explore. Here are three suggestions for hikes of varying lengths:
+
+1. Skyline Trail Loop: This is a challenging hike that offers breathtaking views of Mount Rainier and the surrounding alpine landscapes. The loop is approximately 5.5 miles long and takes you through wildflower meadows, glaciers, and rocky ridges. Keep an eye out for marmots and mountain goats along the way. Interesting fact: Mount Rainier is an active stratovolcano and stands as the highest mountain in Washington State.        
+
+2. Naches Peak Loop Trail: This moderate 3.5-mile loop trail features stunning wildflower displays during the summer months. As you hike along the ridge, you'll have panoramic views of Mount Rainier, Tipsoo Lake, and the surrounding valleys. Interesting fact: The Naches Peak Loop is part of the Pacific Crest Trail, a long-distance hiking trail that stretches from Mexico to Canada.
+
+3. Grove of the Patriarchs Trail: If you're looking for a shorter and easier hike, this 1.3-mile loop trail is a great option. Located in the Ohanapecosh area, this trail takes you through an ancient forest of towering, old-growth trees, including some massive Douglas firs and western red cedars. Interesting fact: The Grove of the Patriarchs is home to one of the largest trees in the Pacific Northwest, known as the "Big Tree," which is estimated to be over 1,000 years old.
+
+Remember to check the current trail conditions and any necessary permits before heading out on your hike. Enjoy exploring the beauty of Rainier National Park!
+
+Response: Near Rainier National Park, there are plenty of beautiful hikes to explore. Here are three suggestions for hikes of varying lengths:
+
+1. Skyline Trail Loop: This is a challenging hike that offers breathtaking views of Mount Rainier and the surrounding alpine landscapes. The loop is approximately 5.5 miles long and takes you through wildflower meadows, glaciers, and rocky ridges. Keep an eye out for marmots and mountain goats along the way. Interesting fact: Mount Rainier is an active stratovolcano and stands as the highest mountain in Washington State.        
+
+2. Naches Peak Loop Trail: This moderate 3.5-mile loop trail features stunning wildflower displays during the summer months. As you hike along the ridge, you'll have panoramic views of Mount Rainier, Tipsoo Lake, and the surrounding valleys. Interesting fact: The Naches Peak Loop is part of the Pacific Crest Trail, a long-distance hiking trail that stretches from Mexico to Canada.
+
+3. Grove of the Patriarchs Trail: If you're looking for a shorter and easier hike, this 1.3-mile loop trail is a great option. Located in the Ohanapecosh area, this trail takes you through an ancient forest of towering, old-growth trees, including some massive Douglas firs and western red cedars. Interesting fact: The Grove of the Patriarchs is home to one of the largest trees in the Pacific Northwest, known as the "Big Tree," which is estimated to be over 1,000 years old.
+
+Remember to check the current trail conditions and any necessary permits before heading out on your hike. Enjoy exploring the beauty of Rainier National Park!
+
+Enter the prompt (or type 'quit' to exit): Where should I hike near Boise? I'm looking for something of easy difficulty, between 2 to 3 miles, with moderate elevation gain.
+
+Sending request for summary to Azure OpenAI endpoint...
+
+
+Summary: If you're looking for an easy hike near Boise with a moderate elevation gain and a length of 2 to 3 miles, here are three recommendations for you:
+
+1. Hulls Gulch Nature Trail: Located in the Boise Foothills, this 2.6-mile loop trail offers a scenic hike with beautiful views of the city. The trail has a moderate elevation gain of about 400 feet, making it a manageable hike for beginners. Interesting fact: The Boise Foothills are home to various wildlife species, including mule deer, coyotes, and a variety of birds.
+eresting fact: The Red Cliffs area is a popular spot for rock climbing enthusiasts due to its unique geological features.
+
+3. Oregon Trail Reserve: Located just outside of Boise in the town of Caldwell, the Oregon Trail Reserve offers a 2.8-mile loop trail with a gentle elevation gain. This historic trail follows a portion of the original Oregon Trail, allowing you to walk in the footsteps of pioneers. Interesting fact: The Oregon Trail was a 2,170-mile historic routgon Trail Reserve offers a 2.8-mile loop trail with a gentle elevation gain. This historic trail follows a portion of the original Oregon Trail, allowing you to walk in the footsteps of pioneers. Interesting fact: The Oregon Trail was a 2,170-mile historic route used by settlers during the mid-1800s to travel to the western part of the United States.
+
+Before heading out, check for any trail closures or restrictions and be prepared with proper hiking gear and plenty of water. Enjoy your hike near Boise!
+
+Response: If you're looking for an easy hike near Boise with a moderate elevation gain and a length of 2 to 3 miles, here are three recommendations for you:
+
+1. Hulls Gulch Nature Trail: Located in the Boise Foothills, this 2.6-mile loop trail offers a scenic hike with beautiful views of the city. The trail has a moderate elevation gain of about 400 feet, making it a manageable hike for beginners. Interesting fact: The Boise Foothills are home to various wildlife species, including mule deer, coyotes, and a variety of birds.
+
+2. Red Cliffs Nature Trail: Situated in the Boise National Forest, this 2.2-mile out-and-back trail is known for its striking red rock formations and lush vegetation. The trail features a moderate elevation gain of around 500 feet. Keep an eye out for wildflowers and bird species like the Western Tanager along the way. Interesting fact: The Red Cliffs area is a popular spot for rock climbing enthusiasts due to its unique geological features.
+
+3. Oregon Trail Reserve: Located just outside of Boise in the town of Caldwell, the Oregon Trail Reserve offers a 2.8-mile loop trail with a gentle elevation gain. This historic trail follows a portion of the original Oregon Trail, allowing you to walk in the footsteps of pioneers. Interesting fact: The Oregon Trail was a 2,170-mile historic route used by settlers during the mid-1800s to travel to the western part of the United States.
+
+Before heading out, check for any trail closures or restrictions and be prepared with proper hiking gear and plenty of water. Enjoy your hike near Boise!
+
+Enter the prompt (or type 'quit' to exit):

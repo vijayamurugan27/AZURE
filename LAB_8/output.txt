@@ -1,0 +1,107 @@
+Enter some text ("quit" to stop)
+what's devi?
+view top intent:
+        top intent: GetDate
+        category: GetDate
+        confidence score: 0.65591985
+
+view entities:
+query: what's devi?
+05/27/2024
+
+
+
+Enter some text ("quit" to stop)
+waht's in the lunch box?
+view top intent:
+        top intent: GetDate
+        category: GetDate
+        confidence score: 0.65696156
+
+view entities:
+query: waht's in the lunch box?
+05/27/2024
+
+
+
+Enter some text ("quit" to stop)
+how are you ?
+view top intent:
+        top intent: GetDate
+        category: GetDate
+        confidence score: 0.869275
+
+view entities:
+query: how are you ?
+05/27/2024
+
+
+
+Enter some text ("quit" to stop)
+this is a fucking nice place?
+view top intent:
+        top intent: GetTime
+        category: GetTime
+        confidence score: 0.61632323
+
+view entities:
+query: this is a fucking nice place?
+10:28
+
+
+
+Enter some text ("quit" to stop)
+what's a solar eclipse?
+view top intent:
+        top intent: GetDay
+        category: GetDay
+        confidence score: 0.70644486
+
+view entities:
+query: what's a solar eclipse?
+Monday
+
+
+
+Enter some text ("quit" to stop)
+where is london?
+view top intent:
+        top intent: GetTime
+        category: GetTime
+        confidence score: 0.78874457
+
+view entities:
+query: where is london?
+10:29
+        top intent: GetTime
+        category: GetTime
+        confidence score: 0.71781963
+
+view entities:
+        confidence score: 0.71781963
+        
+
+
+Enter some text ("quit" to stop)
+waht time  is golden?
+view top intent:
+        top intent: GetTime    
+        category: GetTime      
+        confidence score: 0.84308755
+
+view entities:
+query: waht time  is golden?   
+10:30
+
+
+
+Enter some text ("quit" to stop)
+hai sexy?
+view top intent:
+        top intent: GetDate    
+        category: GetDate      
+        confidence score: 0.61611056
+
+view entities:
+query: hai sexy?
+05/27/2024

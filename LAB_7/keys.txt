@@ -1,0 +1,7 @@
+9c57ee3e09144ee1ad5cf805dccecb30
+
+f94f6e3592554864828800c5320b930e
+
+eastus
+
+https://malini.cognitiveservices.azure.com/

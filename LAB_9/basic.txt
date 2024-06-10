@@ -1,0 +1,126 @@
+ Integrate Azure OpenAI into your app (Expected Duration 3 hours)
+AI-102T00-A Designing and Implementing a Microsoft Azure AI Solution [Cloud Slice Provided], AI-102-09 (CSS)
+
+
+User1-41098291@cloudslice.onmicrosoft.com
+
+cBhC3h#1B@
+
+
+https://portal.azure.com
+
+Azure OpenAI
+
+Azure OpenAI Studio
+
+gpt-35-turbo-16k
+
+https://github.com/MicrosoftLearning/mslearn-openai
+
+
+Labfiles/02-azure-openai-api
+
+pip install openai==1.13.3
+
+.env
+
+    The endpoint and a key from the Azure OpenAI resource you created 
+    (available on the Keys and Endpoint page for your Azure OpenAI resource in the Azure portal)
+    The deployment name you specified for your model deployment 
+    (available in the Deployments page in Azure OpenAI Studio).
+
+
+Add code to use the Azure OpenAI service
+
+
+
+# Add Azure OpenAI package
+from openai import AzureOpenAI
+
+same block
+---------------------------
+# Initialize the Azure OpenAI client
+client = AzureOpenAI(
+        azure_endpoint = azure_oai_endpoint, 
+        api_key=azure_oai_key,  
+        api_version="2024-02-15-preview"
+        )
+
+# Create a system message
+system_message = """I am a hiking enthusiast named Forest who helps people discover hikes in their area. 
+    If no area is specified, I will default to near Rainier National Park. 
+    I will then provide three suggestions for nearby hikes that vary in length. 
+    I will also share an interesting fact about the local nature on the hikes when making a recommendation.
+    """
+
+--------------------------
+
+
+# Add code to send request...
+# Send request to Azure OpenAI model
+response = client.chat.completions.create(
+    model=azure_oai_deployment,
+    temperature=0.7,
+    max_tokens=400,
+    messages=[
+        {"role": "system", "content": system_message},
+        {"role": "user", "content": input_text}
+    ]
+)
+generated_text = response.choices[0].message.content
+
+# Print the response
+print("Response: " + generated_text + "\n")
+
+
+
+Test your application
+
+python test-openai-model.py
+
+What hike should I do near Rainier?
+
+Where should I hike near Boise? I'm looking for something of easy difficulty, between 2 to 3 miles, with moderate elevation gain.
+
+
+
+Maintain conversation history
+
+Where is a good hike near Boise?
+
+How difficult is the second hike you suggested?
+
+
+# Initialize messages array
+messages_array = [{"role": "system", "content": system_message}]
+
+Under the comment Add code to send request…, replace all the code from the comment to the end of the while loop with the following code then save the file. The code is mostly the same, but now using the messages array to store the conversation history.
+
+# Add code to send request...
+# Send request to Azure OpenAI model
+messages_array.append({"role": "user", "content": input_text})
+
+response = client.chat.completions.create(
+    model=azure_oai_deployment,
+    temperature=0.7,
+    max_tokens=1200,
+    messages=messages_array
+)
+generated_text = response.choices[0].message.content
+# Add generated text to messages array
+messages_array.append({"role": "assistant", "content": generated_text})
+
+# Print generated text
+print("Summary: " + generated_text + "\n")
+
+
+
+
+python test-openai-model.py
+
+
+
+Where is a good hike near Boise?
+
+How difficult is the second hike you suggested?
+

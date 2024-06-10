@@ -1,0 +1,31 @@
+Create a Question Answering Solution (Expected Duration 3 hours) 
+
+
+AI-102T00-A Designing and Implementing a Microsoft Azure AI Solution [Cloud Slice Provided], AI-102-06 (CSS)
+
+
+https://portal.azure.com
+
+
+Azure AI services
+
+Language Service
+
+Keys and Endpoint
+
+
+https://language.cognitive.azure.com/ 
+
+
+prediction url:
+
+
+https://vairamuthu.cognitiveservices.azure.com/language/:query-knowledgebases?projectName=LearnFAQ&api-version=2021-10-01&deploymentName=production
+
+Sample request
+
+
+curl -X POST "https://vairamuthu.cognitiveservices.azure.com/language/:query-knowledgebases?projectName=LearnFAQ&api-version=2021-10-01&deploymentName=production" -H "Ocp-Apim-Subscription-Key: 9a50d061f568413da2c1041584e32053" -H "Content-Type: application/json" -d "{\"top\":3,\"question\":\"YOUR_QUESTION_HERE\",\"includeUnstructuredSources\":true,\"confidenceScoreThreshold\":\"YOUR_SCORE_THRESHOLD_HERE\",\"answerSpanRequest\":{\"enable\":true,\"topAnswersWithSpan\":1,\"confidenceScoreThreshold\":\"YOUR_SCORE_THRESHOLD_HERE\"},\"filters\":{\"metadataFilter\":{\"logicalOperation\":\"YOUR_LOGICAL_OPERATION_HERE\",\"metadata\":[{\"key\":\"YOUR_ADDITIONAL_PROP_KEY_HERE\",\"value\":\"YOUR_ADDITIONAL_PROP_VALUE_HERE\"}]}}}"
+
+
+https://github.com/MicrosoftLearning/mslearn-ai-language

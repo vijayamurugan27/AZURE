@@ -1,0 +1,255 @@
+Utilize prompt engineering in your app (Expected Duration 3 hours)
+AI-102T00-A Designing and Implementing a Microsoft Azure AI Solution [Cloud Slice Provided], AI-102-10 (CSS)
+
+
+Labfiles/03-prompt-engineering 
+
+pip install openai==1.13.3
+
+.env
+
+
+    The endpoint and a key from the Azure OpenAI resource you created 
+    (available on the Keys and Endpoint page for your Azure OpenAI resource in the Azure portal)
+    The deployment name you specified for your model deployment 
+    (available in the Deployments page in Azure OpenAI Studio).
+
+
+User1-41105448@cloudslice.onmicrosoft.com
+
+GAp40@g!eD
+
+Utilize prompt engineering in your app
+
+https://portal.azure.com
+
+Azure OpenAI
+
+Azure OpenAI Studio
+
+gpt-35-turbo-16k
+
+    Model: gpt-35-turbo-16k (if the 16k model isn't available, choose gpt-35-turbo)
+    Model version: Auto-update to default
+    Deployment name: A unique name of your choice. You'll use this name later in the lab.
+    Advanced options
+        Content filter: Default
+        Deployment type: Standard
+        Tokens per minute rate limit: 5K*
+        Enable dynamic quota: Enabled
+
+Explore prompt engineering techniques
+
+
+
+Azure OpenAI Studio
+
+https://oai.azure.com
+
+
+Playground section, select the Chat page
+
+    Setup - used to set the context for the model's responses.
+    Chat session - used to submit chat messages and view responses.
+    Configuration - used to configure settings for the model deployment.
+
+
+
+What kind of article is this?
+---
+Severe drought likely in California
+
+Millions of California residents are bracing for less water and dry lawns as drought threatens to leave a large swath of the region with a growing water shortage.
+
+In a remarkable indication of drought severity, officials in Southern California have declared a first-of-its-kind action limiting outdoor water use to one day a week for nearly 8 million residents.
+
+Much remains to be determined about how daily life will change as people adjust to a drier normal. But officials are warning the situation is dire and could lead to even more severe limits later in the year.
+
+
+
+
+You are a news aggregator that categorizes news articles.
+
+
+
+User:
+What kind of article is this?
+---
+New York Baseballers Wins Big Against Chicago
+
+New York Baseballers mounted a big 5-0 shutout against the Chicago Cyclones last night, solidifying their win with a 3 run homerun late in the bottom of the 7th inning.
+
+Pitcher Mario Rogers threw 96 pitches with only two hits for New York, marking his best performance this year.
+
+The Chicago Cyclones' two hits came in the 2nd and the 5th innings but were unable to get the runner home to score.
+
+
+
+Assistant:
+Sports
+
+
+User:
+Categorize this article:
+---
+Joyous moments at the Oscars
+
+The Oscars this past week where quite something!
+
+Though a certain scandal might have stolen the show, this year's Academy Awards were full of moments that filled us with joy and even moved us to tears.
+These actors and actresses delivered some truly emotional performances, along with some great laughs, to get us through the winter.
+
+From Robin Kline's history-making win to a full performance by none other than Casey Jensen herself, don't miss tomorrows rerun of all the festivities.
+
+
+Assistant:
+Entertainment
+
+
+
+Use the Apply changes button at the top of the Setup section to update the system message.
+
+
+Chat session
+
+What kind of article is this?
+---
+Severe drought likely in California
+
+Millions of California residents are bracing for less water and dry lawns as drought threatens to leave a large swath of the region with a growing water shortage.
+
+In a remarkable indication of drought severity, officials in Southern California have declared a first-of-its-kind action limiting outdoor water use to one day a week for nearly 8 million residents.
+
+Much remains to be determined about how daily life will change as people adjust to a drier normal. But officials are warning the situation is dire and could lead to even more severe limits later in the year.
+
+
+
+Setup 
+
+You are an AI assistant that helps people find information.
+
+
+ Chat session
+# 1. Create a list of animals
+# 2. Create a list of whimsical names for those animals
+# 3. Combine them randomly into a list of 25 animal and name pairsYou are a coding assistant helping write python code.
+
+
+Resubmit the following prompt to the model:
+
+# 1. Create a list of animals
+# 2. Create a list of whimsical names for those animals
+# 3. Combine them randomly into a list of 25 animal and name pairs
+
+The model should correctly respond with python code doing what the comments requested.
+
+
+Prepare to develop an app in Visual Studio Code
+
+
+https://github.com/MicrosoftLearning/mslearn-openai
+
+Labfiles/03-prompt-engineering 
+
+pip install openai==1.13.3
+
+
+# Add Azure OpenAI package
+from openai import AsyncAzureOpenAI
+
+
+# Configure the Azure OpenAI client
+client = AsyncAzureOpenAI(
+    azure_endpoint = azure_oai_endpoint, 
+    api_key=azure_oai_key,  
+    api_version="2024-02-15-preview"
+    )
+
+
+
+# Format and send the request to the model
+messages =[
+    {"role": "system", "content": system_message},
+    {"role": "user", "content": user_message},
+]
+
+print("\nSending request to Azure OpenAI model...\n")
+
+# Call the Azure OpenAI model
+response = await client.chat.completions.create(
+    model=model,
+    messages=messages,
+    temperature=0.7,
+    max_tokens=800
+)
+
+
+Run your application:
+
+system.txt --> save it
+
+python prompt-engineering.py
+
+
+System message:
+You are an AI assistant
+
+User message:
+Write an intro for a new wildlife Rescue
+
+System message:
+You are an AI assistant helping to write emails
+
+User message:
+Write a promotional email for a new wildlife rescue, including the following: 
+- Rescue name is Contoso 
+- It specializes in elephants 
+- Call for donations to be given at our website
+
+System message:
+You are an AI assistant helping to write emails
+User message:
+Write a promotional email for a new wildlife rescue, including the following: 
+- Rescue name is Contoso 
+- It specializes in elephants, as well as zebras and giraffes 
+- Call for donations to be given at our website 
+\n Include a list of the current animals we have at our rescue after the signature, in the form of a table. These animals include elephants, zebras, gorillas, lizards, and jackrabbits.
+
+
+
+System message:
+You are an AI assistant that helps write promotional emails to generate interest in a new business. Your tone is light, chit-chat oriented and you always include at least two jokes.
+
+User message:
+Write a promotional email for a new wildlife rescue, including the following: 
+- Rescue name is Contoso 
+- It specializes in elephants, as well as zebras and giraffes 
+- Call for donations to be given at our website 
+\n Include a list of the current animals we have at our rescue after the signature, in the form of a table. These animals include elephants, zebras, gorillas, lizards, and jackrabbits.
+
+
+grounding.txt
+
+
+# Format and send the request to the model
+print("\nAdding grounding context from grounding.txt")
+grounding_text = open(file="grounding.txt", encoding="utf8").read().strip()
+user_message = grounding_text + user_message
+
+system.txt
+
+
+
+System message:
+You're an AI assistant who helps people find information. You'll provide answers from the text provided in the prompt, and respond concisely.
+
+User message:
+What animal is the favorite of children at Contoso?
+
+
+
+System message:
+User message:
+
+
+

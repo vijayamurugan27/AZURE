@@ -1,0 +1,158 @@
+during the chat session:
+
+I'd like to take a trip to New York. Where should I stay?
+
+
+New York City offers a wide range of accommodations to suit different preferences and budgets. Here are a few popular areas to consider for your stay:
+
+    Manhattan: This is the heart of New York City, known for its iconic landmarks like Times Square, Central Park, and the Theater District. It offers a variety of hotels, from luxury options in Midtown to more affordable alternatives in neighborhoods like the Lower East Side or Chelsea.
+    Brooklyn: If you prefer a more laid-back atmosphere, Brooklyn might be a good choice. It has trendy neighborhoods like Williamsburg and DUMBO, with a vibrant arts scene, great restaurants, and stunning views of the Manhattan skyline.
+    Queens: Queens is a diverse borough with a mix of residential and commercial areas. It offers more affordable accommodations while still being easily accessible to Manhattan via public transportation. Long Island City is a popular neighborhood in Queens with great skyline views.
+    Staten Island: If you're looking for a quieter experience, Staten Island might be an option. It's less crowded and offers a more suburban feel. The Staten Island Ferry provides easy access to Manhattan.
+
+    When choosing your accommodation, consider factors like proximity to attractions, transportation options, and your personal preferences. It's also a good idea to check online reviews and compare prices to find the best deal.
+
+
+What are some facts about New York?
+
+    Here are some interesting facts about New York:
+
+    New York City is the most populous city in the United States, with over 8.4 million residents.
+    The city is composed of five boroughs: Manhattan, Brooklyn, Queens, The Bronx, and Staten Island.
+    New York City is often referred to as the "Big Apple" and has several nicknames, including "The City That Never Sleeps" and "Gotham."
+    The Statue of Liberty, located on Liberty Island in New York Harbor, is one of the most iconic landmarks in the city. It was a gift from France to the United States and is a symbol of freedom and democracy.
+    Times Square is known for its bright lights, billboards, and bustling atmosphere. It is often considered the "crossroads of the world" and is a popular tourist destination.
+    Central Park is a vast green oasis in the heart of Manhattan, spanning 843 acres. It offers various recreational activities, including walking paths, lakes, and even a zoo.
+    New York City is home to many world-renowned cultural institutions, such as the Metropolitan Museum of Art (the Met), the Museum of Modern Art (MoMA), and the Broadway theater district.
+    The city's subway system is one of the oldest and largest in the world, with over 400 stations and more than 660 miles of track.
+    New York City is a melting pot of cultures, with a diverse population representing people from all around the world. Over 800 languages are spoken in the city.
+    Wall Street, located in Lower Manhattan, is the financial center of the United States and is home to the New York Stock Exchange.
+
+    These are just a few facts about New York City, a vibrant and dynamic metropolis with a rich history and cultural significance.
+
+
+
+I'd like to take a trip to New York. Where should I stay?
+
+    Based on the information from Margie's Travel, there are several accommodation options in New York City 1 . Here are a few options:
+
+    The Manhattan Hotel: Located in the heart of New York City, within an easy walk to Times Square and Broadway 1 .
+    The Grand Central Hotel: A comfortable mid-town hotel close to Grand Central Station, the Chrysler Building, and the Empire State Building 1 .
+    The Park Hotel: Offers luxurious accommodation in upper Manhattan with views of Central Park 1 .
+
+    To book your trip to New York, you can visit the Margie's Travel website at www.margiestravel.com 1 . Enjoy your trip!
+
+
+What are some facts about New York?
+
+    New York City, also known as the Big Apple, is the most populous city in the United States 1 . It is located at the southern tip of the state of New York and is the center of the New York metropolitan area 1 . Here are some key facts about New York:
+
+    Population: New York City has an estimated population of 8,550,405 1 .
+    Size: The city covers an area of about 302.6 square miles, making it the most densely populated major city in the United States 1 .
+    Global Influence: New York City is a global power city and has a significant impact on commerce, finance, media, art, fashion, research, technology, education, and entertainment 1 .
+    Cultural and Financial Capital: It is often described as the cultural and financial capital of the world 1 .
+    United Nations Headquarters: New York City is home to the headquarters of the United Nations and is an important center for international diplomacy 1 .
+
+    To learn more about New York City and plan your trip, you can visit the Margie's Travel website at www.margiestravel.com 1 .
+
+
+
+
+in the Terminal:
+
+
+Tell me about London:
+
+Enter a question:
+tell me about london
+...Sending the following request to Azure OpenAI endpoint...
+Request: tell me about london
+
+Response: London is the capital and most populous city of England and the United Kingdom [doc2]. It is located on the River Thames in the southeast of Great Britain and has been a major settlement for over two millennia [doc2]. The city was founded by the Romans and was named Londinium [doc2]. London's ancient core, known as the City of London, still retains its medieval boundaries [doc2]. In addition to the historic core, Greater London encompasses areas historically split between Middlesex, Essex, Surrey, Kent, and Hertfordshire [doc2].
+
+London is known for its leisure, outdoor activities, historical sites, and rich arts and culture scene [doc2]. The best time to visit is from June to August, with an average temperature range of 56-67°F and an average precipitation of 1.9 inches [doc2].
+
+If you're planning a trip to London, Margie's Travel offers various accommodation options in the city, including The Buckingham Hotel, The City Hotel, and The Kensington Hotel [doc2].
+
+To learn more about London or book your trip, you can visit Margie's Travel website at www.margiestravel.com [doc1][doc2].
+
+
+Tell me about dubai:
+
+        Enter a question:
+        Tell me about dubai
+        ...Sending the following request to Azure OpenAI endpoint...
+        Request: Tell me about dubai
+
+        Response: Dubai is the largest and most populous city in the United Arab Emirates [doc2]. It is located on the southeast coast of the Persian Gulf and serves as the capital of the Emirate of Dubai [doc2]. Dubai is known for its modern architecture, luxury shopping, vibrant nightlife, and lively entertainment scene . Margie's Travel offers various accommodation options in Dubai, including The Creek Hotel, The Deira Hotel, and The Lost City Hotel [doc2]. To book a trip to Dubai, you can visit www.margiestravel.com [doc2].
+
+Tell me about las vegas?
+        Enter a question:
+        tell me about las vegas
+        ...Sending the following request to Azure OpenAI endpoint...
+        Request: tell me about las vegas
+
+        Response: Las Vegas, officially known as the City of Las Vegas, is the 28th-most populated city in the United States and the most populated city in the state of Nevada [doc2]. It is an internationally renowned major resort city, famous for its gambling, shopping, fine dining, entertainment, and nightlife [doc2]. Las Vegas serves as the leading financial, commercial, and cultural center for Nevada [doc2]. The city is located in the Las Vegas Valley metropolitan area and is the largest city within the greater Mojave Desert [doc2]. Margie's Travel offers several hotels in Las Vegas, including The Volcano Hotel, The Fountain Hotel, and The Canal Hotel [doc2]. To book your trip to Las Vegas, you can visit www.margiestravel.com [doc2].
+
+
+Tell me about margies?
+        Enter a question:
+        tell me about margies
+        ...Sending the following request to Azure OpenAI endpoint...
+        Request: tell me about margies
+
+        Response: Margie's Travel is a world-leading travel agency that offers a wide range of services including flights, accommodation, transfers, visas, currency exchange, and excursions [doc1]. They specialize in arranging trips to popular destinations such as Dubai, Las Vegas, London, New York, and San Francisco [doc1]. Margie's Travel employs a team of travel experts, including Marjorie Long (CEO), Logan Reid (CFO), Emma Luffman (CTO), and Deepak Nadar (Strategic Director) [doc1]. For more information, you can visit their website at www.margiestravel.com [doc1].
+
+
+
+Tell me about san Francisco?
+
+        
+Response: San Francisco is the cultural, commercial, and financial center of Northern California. It is the birthplace of the United Nations and located at the north end of the San Francisco Peninsula. With a population density of about 18,581 people per square mile, San Francisco is the most densely settled large city in California and the second-most densely populated major city in the United States after New York City [doc2]. It is the fourth-most populous city in California and has a census-estimated 2016 population of 870,887 [doc2]. San Francisco is known for its iconic sights such as the Golden Gate Bridge and the Presidio [doc2]. Margie's Travel offers accommodation options in San Francisco, including The Lombard Hotel and The Wharf Hotel [doc2]. For more information or to book a trip to San Francisco, you can visit www.margiestravel.com [doc2].
+
+
+        Enter a question:
+        tell me about san francisco
+        ...Sending the following request to Azure OpenAI endpoint...
+        Request: tell me about san francisco
+
+        Response: San Francisco is the cultural, commercial, and financial center of Northern California. It is the birthplace of the United Nations and located at the north end of the San Francisco Peninsula. With an area of about 47.9 square miles, San Francisco is the smallest county and the only consolidated city-county in California. It is known for its high population density, with about 18,581 people per square mile, making it the most densely settled large city in California and the second-most densely populated major city in the United States after New York City [doc2]. San Francisco is the fourth-most populous city in California, with a census-estimated 2016 population of 870,887 [doc2]. It is part of the larger San Francisco Bay Area, which has an estimated population of 8.7 million [doc2]. Margie's Travel offers various accommodation options in San Francisco, including The Lombard Hotel and The Wharf Hotel [doc2]. To book your trip to San Francisco, you can visit www.margiestravel.com [doc2].
+
+
+
+
+------------------------------------------------------------------------
+
+for another GPT_35K_turbo_instruct
+
+I'd like to take a trip to New York. Where should I stay?
+
+    Based on the information from Margie's Travel, there are several accommodation options in New York City 1 . Here are a few options you can consider:
+
+    The Manhattan Hotel: Located in the heart of New York City, this hotel offers easy access to Times Square and Broadway 1 .
+    The Grand Central Hotel: Situated in midtown, this comfortable hotel is close to Grand Central Station, the Chrysler Building, and the Empire State Building 1 .
+    The Park Hotel: This luxurious accommodation is located in upper Manhattan and offers views of Central Park 1 .
+
+    To book your trip to New York, you can visit the Margie's Travel website at www.margiestravel.com 1 . Enjoy your trip!
+
+
+What are some facts about New York?
+
+    New York City, also known as the Big Apple, is the most populous city in the United States 1 . It is located at the southern tip of the state of New York and is the center of the New York metropolitan area 1 . Here are some facts about New York:
+
+    Population: With an estimated population of 8,550,405 in 2015, New York City is the most densely populated major city in the United States 1 .
+    Global Influence: New York City is a global power city and exerts a significant impact on commerce, finance, media, art, fashion, research, technology, education, and entertainment 1 .
+    Cultural and Financial Capital: It has been described as the cultural and financial capital of the world 1 .
+    United Nations Headquarters: New York City is home to the headquarters of the United Nations and is an important center for international diplomacy 1 .
+    Landmarks: The city is known for its iconic landmarks such as Times Square, Broadway, the Empire State Building, and Central Park 1 .
+    Tourism: New York City attracts millions of tourists each year who come to experience its vibrant culture, diverse cuisine, world-class museums, and Broadway shows 1 .
+
+    To learn more about New York City and plan your trip, you can visit the Margie's Travel website at www.margiestravel.com 1 .
+
+
+
+Error code: 400 - {'error': {'code': 'OperationNotSupported', 'message': 
+'The chatCompletion operation does not work with the specified model, 
+gpt-35-turbo-instruct. Please choose different model and try again. 
+You can learn more about which models can be used with each operation 
+here: https://go.microsoft.com/fwlink/?linkid=2197993.'}}
